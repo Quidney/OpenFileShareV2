@@ -68,6 +68,7 @@ namespace OpenFileShareV2
             Console.Title = "Client";
 
 #if (DEBUG)
+            Console.WriteLine("Since the program is run in Debug mode, using ip 127.0.0.1");
             RemoteIP = IPAddress.Parse("127.0.0.1");
 #else
             while (!SetIP()) ;
