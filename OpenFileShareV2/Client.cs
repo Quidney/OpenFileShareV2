@@ -162,7 +162,9 @@ namespace OpenFileShareV2
 
         internal static async Task LogProgress(long totalBytesRead, long fileSizeBytes)
         {
-            Console.CursorTop--;
+            Console.SetCursorPosition(0, Console.CursorTop - 1);
+            Console.Write(new string(' ', Console.WindowWidth));
+            Console.SetCursorPosition(0, Console.CursorTop);
             await Console.Out.WriteLineAsync($"Progress: {Math.Round(100f * totalBytesRead / fileSizeBytes, 2)}%");
         }
     }
