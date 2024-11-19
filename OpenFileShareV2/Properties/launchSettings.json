@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OpenFileShareV2": {
+      "commandName": "Project",
+      "commandLineArgs": "testst"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFileShareV2", "OpenFileShareV2\OpenFileShareV2.csproj", "{F740C158-DBFE-41BC-855A-31C7CCFDDA2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F740C158-DBFE-41BC-855A-31C7CCFDDA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F740C158-DBFE-41BC-855A-31C7CCFDDA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F740C158-DBFE-41BC-855A-31C7CCFDDA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F740C158-DBFE-41BC-855A-31C7CCFDDA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59CE1885-E8D8-4065-BB66-2BAF151EE794}
+	EndGlobalSection
+EndGlobal
